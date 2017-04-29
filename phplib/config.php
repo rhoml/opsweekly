@@ -277,7 +277,7 @@ $error_log_file = "/var/log/httpd/opsweekly_debug.log";
 // Fed into preg_replace so regexes are allowed
 $dev_fqdn = "/(\w+).vms.mycompany.com/";
 // The prod FQDN is then subsituted in place of the above string.
-$prod_fqdn = "tranquil-brook-52975.herokuapp.com";
+$prod_fqdn = "https://tranquil-brook-52975.herokuapp.com";
 
 // Global configuration for irccat, used to send messages to IRC about weekly meetings.
 $irccat_hostname = '';
